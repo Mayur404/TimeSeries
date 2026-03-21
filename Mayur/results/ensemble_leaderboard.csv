@@ -1,0 +1,7 @@
+,Model,RMSE,MAE,R² Score,MAPE (%)
+1,Lasso Regression,0.8019,0.6257,0.7149,23.79
+2,Voting Ensemble,1.0111,0.7904,0.5467,38.07
+3,Random Forest,1.051,0.8095,0.5102,39.46
+4,Gradient Boosting,1.1318,0.8658,0.432,44.11
+5,Linear Regression,1.1441,1.0042,0.4196,38.78
+6,Tuned XGBoost,1.2027,0.9313,0.3586,47.37
