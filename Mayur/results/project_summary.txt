@@ -1,0 +1,23 @@
+Inflation Forecasting Project Summary
+========================================
+Dataset coverage: 2012-01 to 2025-12
+Raw assignment rows: 168
+Modeling rows after feature engineering: 156
+
+Best model:
+  Name: Lasso Regression
+  Test RMSE: 0.619
+  Test MAE: 0.430
+  Test R2: 0.863
+
+How the holdout test is evaluated now:
+  The last 24 months are scored with a walk-forward one-step-ahead backtest.
+  For each month, the model is trained only on earlier months and predicts
+  the next month using information available at that time.
+  The Last Value Naive baseline uses the most recently observed CPI inflation,
+  which is valid in a one-step-ahead monthly forecasting setup.
+
+Why linear regression is not a straight line on the time plot:
+  The x-axis is time, but the model predicts from multiple changing inputs
+  such as food, fuel, crude oil, commodity levels, and lagged CPI values.
+  A linear model is linear in the features, not necessarily a straight line over time.

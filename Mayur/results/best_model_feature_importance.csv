@@ -1,0 +1,16 @@
+Feature,Importance
+CPI_Inflation_Lag_1,1.4327877835365255
+Food_Price_Index_Pct_Change_1,0.13387138005887445
+Month_Cos,0.12075067189248898
+CPI_Inflation_Lag_3,0.07074770988993469
+Food_Price_Index_Pct_Change_3,0.05856178535707725
+Month_Sin,0.035428960157807526
+CPI_Rolling_Mean_6,0.030515021513546924
+CPI_Inflation_Lag_12,0.02170506882859502
+Crude_Oil_Price_Lag_6,0.010874668208013938
+Fuel_Light_Index_Pct_Change_1,0.010413424023492397
+CPI_Rolling_Std_6,0.0044950127021001155
+Fuel_Light_Index_Lag_1,0.0012578179617752483
+Food_Price_Index,0.0
+Commodity_Price_Index,0.0
+Crude_Oil_Price,0.0
